@@ -1,0 +1,23 @@
+{
+    "name": "patrolserver/patrol-laravel",
+    "description": "A package which implements the PatrolServer SDK",
+    "license": "MIT",
+    "homepage": "https://patrolserver.com/",
+    "authors": [
+        {
+            "name": "matvp91",
+            "email": "matvp91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "patrolserver/patrolsdk-php": "~1.0.1"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PatrolServer\\PatrolSdk\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
