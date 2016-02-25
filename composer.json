@@ -13,10 +13,9 @@
         "php": ">=5.3.3",
         "patrolserver/patrolsdk-php": "~1.0.1"
     },
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "PatrolServer\\PatrolSdk\\": "src/"
+            "PatrolServer\\Patrol\\": "src/"
         }
     },
     "minimum-stability": "stable"

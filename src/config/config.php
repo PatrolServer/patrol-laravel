@@ -2,8 +2,10 @@
 
 return [
 
-    'patrol_key' => '',
+    'key' => '',
 
-    'patrol_secret' => ''
+    'secret' => '',
+
+    'enable_webhooks' => true
 
 ];
